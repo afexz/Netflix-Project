@@ -1,9 +1,21 @@
 import './App.css';
+import Heropage from './components/Heropage';
+import MoviesRow from './components/MoviesRow';
+import Navpage from './components/Navpage';
 
 function App() {
   return (
     <div className="App">
-     <h1>HELLO</h1>
+      <Navpage />
+      <Heropage />
+      <MoviesRow />
+      <MoviesRow />
+      <MoviesRow /> 
+      <MoviesRow />
+      <MoviesRow />
+      <MoviesRow />
+      <MoviesRow />
+      <MoviesRow />
     </div>
   );
 }
