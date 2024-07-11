@@ -2,3 +2,13 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: black;
+  color: white;
+}
+.movies-row {
+  margin-left: 25px;
+}
+.title {
+  margin-left: 25px;
+}

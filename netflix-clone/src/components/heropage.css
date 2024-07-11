@@ -1,5 +1,48 @@
-.neptun {
-  background-color: lightslategrey;
-  width: 100%;
-  height: 500px;
+.neptun-wrapper {
+  /* width: 100%;
+    padding-top: 178px;
+    padding-left: 80px; */
+  padding-bottom: 45vh;
+  /* overflow: hidden; */
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+.neptun-title h1 {
+  font-size: 55px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.titleBtnDisc-wrapper {
+  padding-top: 278px;
+  padding-left: 51px;
+}
+.neptun-btn {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgba(56, 54, 54, 0.5);
+  border: none;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.neptun-btn:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: all 0.5s;
+}
+.neptun-bottom-fade {
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  height: 45vh; /* Adjust the height as needed */
+  background: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 70%), rgba(0, 0, 0, 1.5));
+  pointer-events: none;
+}
+.neptun-description {
+ margin-top: 15px;
 }

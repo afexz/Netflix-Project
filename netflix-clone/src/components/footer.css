@@ -1,0 +1,71 @@
+
+.footer-container {
+    background-color: #141414;
+    color: rgb(91, 89, 89);
+    padding: 40px 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+/* Social icons section */
+.social-icons ul {
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    padding: 0;
+    margin-bottom: 20px;
+        margin-left: 260px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.social-icons li:hover {
+    color: #b3b3b3;
+}
+
+/* Footer links section */
+.footer-links {
+  /* width: 90%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.footer-links div {
+    margin: 10px 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
+
+/* Service code and copyright section */
+.footer-container > div:last-child {
+    text-align: left;
+    margin-left: 270px;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+.service {
+  border: #b3b3b3 1px solid;
+  width: 5.5%;
+  padding: 10px;
+}
