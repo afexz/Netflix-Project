@@ -56,7 +56,7 @@ function MoviesRow({ title, url, posterLarge }) {
         {movies.map((movie) => (
           <div key={movie.id} className="movie">
             <img
-              onMouseOver={() => handleMovieClick(movie)}
+              onClick={() => handleMovieClick(movie)}
               src={`${img_url}${movie.poster_path}`}
               alt={movie.name}
               className={`movie-poster ${posterLarge && "movie-poster-lg"}`}
